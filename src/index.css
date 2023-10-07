@@ -1,0 +1,393 @@
+body {
+  margin: 0;
+}
+
+.custom-margin {
+  margin-top: 90px !important;
+}
+.custom-margin-two {
+  margin-top: 200px !important;
+}
+
+.main-logo {
+  width: 145px;
+  margin-bottom: 10px;
+}
+.errorMsg {
+  margin-top: 15px;
+}
+
+.data {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.main-box {
+  display: flex;
+  background: whitesmoke;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 25px 0;
+}
+a {
+  text-decoration: none !important;
+  color: white;
+}
+
+.css-et1ao3-MuiTypography-root {
+  font-size: 16px !important;
+}
+
+.css-cveggr-MuiListItemIcon-root {
+  min-width: 20px !important;
+}
+
+.contents {
+  display: flex;
+}
+
+.content-leftsidebar {
+  flex-grow: 1;
+}
+
+.content-rightsidebar {
+  flex-grow: 4;
+  height: 83vh !important;
+  border-radius: 4px;
+  padding: 15px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.content-rightbar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.message-topleft {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+.message-sendername {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: black;
+  margin: 0;
+}
+.message-useracive {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+.content-centermsg {
+  height: 61vh !important;
+  margin-top: 20px;
+  padding-top: 15px;
+  margin-bottom: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.message-sendbox {
+  display: flex;
+  justify-content: space-between;
+  columns: 50px;
+  align-items: center;
+}
+.message-sendbtn {
+  display: inline-block;
+  padding: 11px 13px 6px 13px;
+  text-align: center;
+  border-radius: 10px;
+  background: #5f35f5;
+}
+.message-sendboxleft {
+  flex-grow: 20;
+  position: relative;
+}
+.message-sendboxright {
+  flex-grow: 1;
+  text-align: right;
+}
+.message-inputbox {
+  width: 100%;
+  background: #f1f1f1;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 10px;
+}
+.messgae-btncamera {
+  position: absolute;
+  right: 15px;
+  top: 8px;
+  font-size: 23px;
+  color: #797979;
+}
+.message-inputbox:focus {
+  outline: none;
+}
+.content-centermsg-leftbar {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+.main-message-left {
+  padding: 10px 20px;
+  background: #5f35f5;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  position: relative;
+  margin-right: 35px;
+  margin-left: 30px;
+}
+.main-message-left::after {
+  width: 0;
+  height: 0;
+  border-top: 0 solid transparent;
+  border-bottom: 22px solid transparent;
+  border-left: 30px solid #5f35f5;
+  content: "";
+  position: absolute;
+  transform: rotate(48deg);
+  bottom: -13px;
+  right: -17px;
+}
+.sendername-message {
+  color: #ffffffdb;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  text-align: right;
+  margin-right: 22px;
+}
+
+.content-centermsg-rightbar {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+.main-message-rightbar {
+  padding: 10px 20px;
+  background: #f1f1f1;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  position: relative;
+  margin-left: 35px;
+  margin-right: 30px;
+}
+.main-message-rightbar::before {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 30px solid #f1f1f1;
+  content: "";
+  position: absolute;
+  transform: rotate(138deg);
+  bottom: -11px;
+  left: -17px;
+}
+.sendername-messagerightbar {
+  color: #bfbfbf;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 23px;
+}
+
+.sendername-messageleftbar {
+  color: #bfbfbf;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  text-align: right;
+  margin-right: 23px;
+}
+
+.usernameml {
+  margin-left: 35px !important;
+}
+.unsentmsg {
+  background: #f1f1f1 !important;
+  color: black !important;
+}
+.unsentmsg::after {
+  width: 0;
+  height: 0;
+  border-top: 0 solid transparent;
+  border-bottom: 22px solid transparent;
+  border-left: 30px solid #f1f1f1 !important;
+  content: "";
+  position: absolute;
+  transform: rotate(48deg);
+  bottom: -13px;
+  right: -17px;
+}
+.content-centermsg-imageresize {
+  margin-top: 8px;
+  overflow: hidden;
+}
+.imgupload-takephoto {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.imgupload-takephoto__imgicon {
+  margin-right: 20px;
+}
+.mywebvideo {
+  margin-top: 9px;
+}
+.react-html5-camera-photo {
+  position: absolute !important;
+  left: 0;
+  top: 0;
+  width: 100% !important;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.messgae-btnemoji {
+  position: absolute;
+  right: 52px;
+  top: 5px;
+  font-size: 22px;
+  color: #797979;
+  padding: 5px;
+}
+
+.audiofile-manage {
+  position: relative;
+  display: flex;
+  width: 400px;
+  height: 50px;
+  align-items: center;
+}
+
+.audio-recorder {
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+}
+.audioupload {
+  position: absolute !important;
+  right: -1px !important;
+  top: 0 !important;
+}
+
+#audiofilerecived {
+  margin-top: 10px !important;
+  width: 400px !important;
+  text-align: center;
+}
+.content-centermsg-imageresize audio {
+  border: 1px solid #00000040;
+  border-radius: 30px;
+}
+
+.ant-err {
+  margin-top: 15px;
+}
+
+.active-pagination {
+  background: #f7f7f7 !important;
+}
+
+.set-password {
+  width: 25% !important;
+}
+.input-set-password {
+  width: 100% !important;
+}
+
+.edit-teacher {
+  display: flex;
+}
+.edit-teacher-form {
+  width: 50%;
+}
+.edit-teacher-table {
+  width: 50%;
+}
+
+.course-edit-btn {
+  margin-left: 20px !important;
+}
+.update-course {
+  margin-top: 50px !important;
+}
+
+.ui.selection.active.dropdown .menu {
+  width: 200px;
+}
+
+.loading-btn {
+  width: 100%;
+  margin-top: 26px !important;
+  background-color: #1976d2 !important;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.edit-image {
+  display: block !important;
+  margin-top: 15px !important;
+}
+
+.content {
+  text-align: center;
+}
+
+.wait-please {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+
+  font-size: 17px;
+
+  letter-spacing: 0.01071em;
+}
+
+.image-download-photo {
+  margin-right: 15px;
+  font-size: 15px;
+}
+
+.link-left {
+  color: #ffffffdb;
+}
+
+.link-left:hover {
+  color: #ffffffdb;
+}
+
+.link-right {
+  color: black;
+}
+.link-right:hover {
+  color: black;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1366px) {
+  .content-centermsg {
+    height: 61vh !important;
+    margin-top: 8px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  }
+  .contents {
+    display: flex;
+    column-gap: 12px;
+  }
+}
