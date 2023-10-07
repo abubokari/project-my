@@ -21,6 +21,7 @@ import EditCourse from "./pages/EditCourse";
 import AddToken from "./pages/AddToken";
 import Token from "./pages/Token";
 import Profile from "./pages/Profile";
+import Zoom from "./pages/Zoom";
 const socket = io("https://pera.onrender.com/");
 
 function App() {
@@ -36,7 +37,11 @@ function App() {
         <Route path="/department/edit/:id" element={<DepartmentEdit />}></Route>
         <Route path="/adddepartment" element={<AddDepartment />}></Route>
         <Route path="/course" element={<Course />}></Route>
+
         <Route path="/profile" element={<Profile />}></Route>
+        <Route path="/zoom" element={<Zoom />}></Route>
+
+
         <Route path="/addtoken" element={<AddToken />}></Route>
         <Route path="/token" element={<Token />}></Route>
         <Route path="/course/edit/:id" element={<EditCourse />}></Route>
