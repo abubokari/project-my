@@ -21,7 +21,7 @@ import EditCourse from "./pages/EditCourse";
 import AddToken from "./pages/AddToken";
 import Token from "./pages/Token";
 import Profile from "./pages/Profile";
-const socket = io("http://localhost:1111");
+const socket = io("https://pera.onrender.com/");
 
 function App() {
   return (
