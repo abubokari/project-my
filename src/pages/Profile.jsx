@@ -251,7 +251,7 @@ function Profile() {
                     {"picture" in user && user.picture !== "" ? (
                       <Image
                         width={150}
-                        src={`http://localhost:1111/api/v1/frontend/public/images/${user.picture}`}
+                        src={`https://pera.onrender.com/api/v1/frontend/public/images/${user.picture}`}
                       />
                     ) : (
                       <Image
